@@ -1,0 +1,46 @@
+html {
+    background-image: -moz-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
+	background-image: -webkit-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
+	background-image: -o-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
+	background-image: linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin:  5em auto;
+    width: 55%;
+    border: 3px solid rgb(53, 138, 64);
+    padding: 0 2em 1em;
+}
+h1 {
+    color: rgb(21, 61, 9);
+    text-align: center;
+}
+h2 {
+    color: rgb(145, 255, 0);
+    text-align: center;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 15em;
+    text-align: right;
+    vertical-align: top;
+}
+input, select, textarea {
+    margin-left: 1em;
+    margin-right: 0.5em;
+    border: 1px solid rgb(0, 68, 255);
+    padding: .25em;
+}
+.hide {
+    display: none;
+}
+#extend {
+    margin-left: 1.5em;
+}
+span {
+    color: red;
+}
